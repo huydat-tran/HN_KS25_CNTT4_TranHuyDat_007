@@ -10,7 +10,7 @@ class LibraryBorrow:
         self.book_name = book_name
         self.borrow_days = borrow_days
         self.late_days = late_days
-        self.fine_per_days = fine_per_day
+        self.fine_per_day = fine_per_day
 
         self.total_fine = self.calculate_fine()
         self.fine_type = self.classify_fine()
